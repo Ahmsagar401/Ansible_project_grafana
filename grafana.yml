@@ -1,7 +1,7 @@
 - name: install and deploy grafana
   hosts: all
   become: true
-  tasks
+  tasks:
     - name: adding_key
       apt_key:
         url: "https://packages.grafana.com/gpg.key"
